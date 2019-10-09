@@ -1,0 +1,114 @@
+File System started!
+Hal: Good morning, Dave!
+
+ush> tfs_dio_create: 262144 file created
+mkfs successful!
+ush> mount successful!
+ush> Partition Control Block:
+    The size of FS = 2048
+    The size of FAT = 64
+    The pointer to FREE = 67
+    The pointer to ROOT = 66
+File Allocation Table:
+    FAT.length = 2048
+    FAT[0] = -1
+    FAT[1] = -1
+    FAT[2] = -1
+    FAT[pointer_root:66] = -1
+    FAT[pointer_free:67] = 68
+    FAT[pointer_free+1] = 69
+    FAT[fat.length-3] = 2046
+    FAT[fat.length-2] = 2047
+    FAT[fat.length-1] = -1
+ush> Partition Control Block:
+    The size of FS = 2048
+    The size of FAT = 64
+    The pointer to FREE = 67
+    The pointer to ROOT = 66
+File Allocation Table:
+    FAT.length = 2048
+    FAT[0] = -1
+    FAT[1] = -1
+    FAT[2] = -1
+    FAT[pointer_root:66] = -1
+    FAT[pointer_free:67] = 68
+    FAT[pointer_free+1] = 69
+    FAT[fat.length-3] = 2046
+    FAT[fat.length-2] = 2047
+    FAT[fat.length-1] = -1
+ush> Directory created!
+ush> Directory has: 1 entries.
+dir1                           0
+ush> Deleting last entry in directory!Directory is now empty!
+Directory removed!
+ush> Directory is empty!
+ush> Directory created!
+ush> File created!
+ush> Directory has: 1 entries.
+file1                          0
+ush> 25Chars successfully appended to /dir1/file1
+ush> 25Chars successfully read from /dir1/file1:
+XXXXXXXXXXXXXXXXXXXXXXXXush> Deleting last entry in directory!Directory is now empty!
+File deleted!
+ush> Directory is empty!
+ush> File created!
+ush> Directory has: 1 entries.
+file1                          0
+ush> 25Chars successfully appended to /dir1/file1
+ush> Directory has: 1 entries.
+file1                          25
+ush> Directory has: 1 entries.
+dir1                           25
+ush> Deleting last entry in directory!Directory is now empty!
+Deleting last entry in directory!Directory is now empty!
+Directory removed!
+ush> Directory is empty!
+ush> File created!
+ush> File successfully renamed to file34
+ush> Directory has: 1 entries.
+file34                         0
+ush> Directory created!
+File successfully copied!
+ush> Directory has: 1 entries.
+file34                         0
+ush> Directory has: 2 entries.
+file34                         0
+dir1                           0
+ush> sync successful!
+ush> Partition Control Block:
+    The size of FS = 2048
+    The size of FAT = 64
+    The pointer to FREE = 70
+    The pointer to ROOT = 66
+File Allocation Table:
+    FAT.length = 2048
+    FAT[0] = -1
+    FAT[1] = -1
+    FAT[2] = -1
+    FAT[pointer_root:66] = -1
+    FAT[pointer_free:70] = 71
+    FAT[pointer_free+1] = 72
+    FAT[fat.length-3] = 2046
+    FAT[fat.length-2] = 2047
+    FAT[fat.length-1] = -1
+ush> Partition Control Block:
+    The size of FS = 2048
+    The size of FAT = 64
+    The pointer to FREE = 70
+    The pointer to ROOT = 66
+File Allocation Table:
+    FAT.length = 2048
+    FAT[0] = -1
+    FAT[1] = -1
+    FAT[2] = -1
+    FAT[pointer_root:66] = -1
+    FAT[pointer_free:70] = 71
+    FAT[pointer_free+1] = 72
+    FAT[fat.length-3] = 2046
+    FAT[fat.length-2] = 2047
+    FAT[fat.length-1] = -1
+ush> sync successful!
+umount successful!
+
+Hal: Good bye, Dave!
+
